@@ -1,0 +1,49 @@
+// Flowerbed Syntax Theme
+
+// Color scheme -----------------------------------
+
+@dbg: #233949; // Dark background
+@dhl: #334959; // Dark highlight
+@dt2: #738999; // Dark bg text secondary
+@dt1: #A3B9C9; // Dark bg text primary
+
+@lbg: #ECF3F2; // Light background
+@lhl: #DCE3E2; // Light highlight
+@lt2: #8C9392; // Light bg text secondary
+@lt1: #5C6362; // Light bg text primary
+
+@red: #D85A87; // Red
+@ora: #D89A47; // Orange
+@yel: #CD9A8A; // Yellow
+@gre: #5CBC7D; // Green
+
+@cya: #1CABA1; // Cyan
+@blu: #4AA7D2; // Blue
+@vio: #7988CA; // Violet
+@mag: #BC74AF; // Magenta
+
+// Variables -----------------------------------
+
+@text-1: @lt1; // text primary
+@text-2: @lt2; // text secondary
+
+@color-1: @cya; // color primary
+@color-2: @gre; // color secondary
+@color-3: @mag; // color tertiary
+
+@support-1: @vio; // support primary
+@support-2: @blu; // support secondary
+
+@accent-1: @ora; // accent primary
+@accent-2: @red; // accent secondary
+@accent-3: @yel; // accent tertiary
+
+// Base vars -----------------------------------
+
+@syntax-fg: @text-1; // text primary
+@syntax-accent: @accent-1; // accent primary
+@syntax-bg: @lbg; // background
+@syntax-guide: @lhl; // background highlight
+@syntax-selection: @syntax-guide;
+@syntax-selection-gutter: @syntax-guide;
+@syntax-cursor-line: fade(@syntax-selection, 26%); // needs to be semi-transparent to show serach results
