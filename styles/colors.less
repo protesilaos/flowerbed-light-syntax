@@ -1,5 +1,3 @@
-// Flowerbed Syntax Theme
-
 // Color scheme -----------------------------------
 
 @dbg: #233949; // Dark background
@@ -12,7 +10,7 @@
 @lt2: #8C9392; // Light bg text secondary
 @lt1: #5C6362; // Light bg text primary
 
-@red: #D85A87; // Red
+@red: #D86A87; // Red
 @ora: #D89A47; // Orange
 @yel: #CD9A8A; // Yellow
 @gre: #5CBC7D; // Green
@@ -22,28 +20,30 @@
 @vio: #7988CA; // Violet
 @mag: #BC74AF; // Magenta
 
-// Variables -----------------------------------
+// Visual order -----------------------------------
 
-@text-1: @lt1; // text primary
-@text-2: @lt2; // text secondary
+@primary1: @cya;
+@primary2: @gre;
+@primary3: @mag;
 
-@color-1: @cya; // color primary
-@color-2: @gre; // color secondary
-@color-3: @mag; // color tertiary
+@secondary1: @vio;
+@secondary2: @blu;
 
-@support-1: @vio; // support primary
-@support-2: @blu; // support secondary
+@tertiary1: @ora;
+@tertiary2: @red;
+@tertiary3: @yel;
 
-@accent-1: @ora; // accent primary
-@accent-2: @red; // accent secondary
-@accent-3: @yel; // accent tertiary
+// Theme variant ----------------------------------
 
-// Base vars -----------------------------------
-
-@syntax-fg: @text-1; // text primary
-@syntax-accent: @accent-1; // accent primary
+@text1: @lt1; // text primary
+@text2: @lt2; // text secondary
 @syntax-bg: @lbg; // background
 @syntax-guide: @lhl; // background highlight
+
+// Atom Base vars ---------------------------------
+
+@syntax-fg: @text1; // text primary
+@syntax-accent: @tertiary1; // cursor, markdown preview links, etc.
 @syntax-selection: @syntax-guide;
 @syntax-selection-gutter: @syntax-guide;
 @syntax-cursor-line: fade(@syntax-selection, 26%); // needs to be semi-transparent to show serach results

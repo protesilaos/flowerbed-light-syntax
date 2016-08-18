@@ -1,27 +1,27 @@
 # Flowerbed syntax theme (light variant)
 
-Medium-to-high contrast with vivid colours. Cyan is the most prevalent accent, followed by green, and magenta.
+Medium contrast theme inspired by flowers. Cyan is the most prevalent accent, followed by green, magenta, violet, and blue.
 
-*Flowerbed* comes in light and dark variants.
+*Flowerbed* comes in separate light and dark variants.
 
-Project page: [http://www.protesilaos.com/flowerbed](http://www.protesilaos.com/flowerbed)
-
-Light variant: [https://atom.io/themes/flowerbed-syntax](https://atom.io/themes/flowerbed-syntax)
-
-Dark variant: [https://atom.io/themes/flowerbed-dark-syntax](https://atom.io/themes/flowerbed-dark-syntax)
-
-## Screenshots
-
-![flowerbed dark screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/flowerbed/img/flowerbed_dark_sample.png)
+## Screenshot
 
 ![flowerbed light screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/flowerbed/img/flowerbed_light_sample.png)
 
-## Palette
+*The font in the screenshot is [Hack](https://github.com/chrissimpkins/Hack), set at 14px*.  
+*Demo code by http://codemirror.net/mode/javascript/index.html*  
+*The UI theme is https://atom.io/themes/atom-material-ui*.
 
-![flowerbed colour scheme](https://raw.githubusercontent.com/protesilaos/prot16/master/flowerbed/img/flowerbed_colours.png)
+## Download
 
-## Acknowledgement
+Search for `flowerbed-syntax` in Settings > Install > Themes. Or install it directly using the command:
 
-The actual code structure is adapted from Simurai's excellent [DuoTone syntax theme](https://github.com/simurai/duotone-syntax). Contrary to DuoTone, Flowerbed uses a 16-colour palette hence the need for adjustments.
+```shell
+apm install flowerbed-syntax
+```
 
-Simurai's work is protected by the inclusion of the original MIT License (`license-original.md`).
+## Further information
+
+Project page: [http://www.protesilaos.com/flowerbed](http://www.protesilaos.com/flowerbed)
+
+Flowerbed dark version: [https://atom.io/themes/flowerbed-dark-syntax](https://atom.io/themes/flowerbed-dark-syntax)
