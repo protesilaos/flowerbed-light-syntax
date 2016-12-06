@@ -22,6 +22,6 @@ apm install flowerbed-syntax
 
 ## Further information
 
-Project page: [http://www.protesilaos.com/flowerbed](http://www.protesilaos.com/flowerbed)
+Project page: [https://protesilaos.com/flowerbed](https://protesilaos.com/flowerbed)
 
 Flowerbed dark version: [https://atom.io/themes/flowerbed-dark-syntax](https://atom.io/themes/flowerbed-dark-syntax)
